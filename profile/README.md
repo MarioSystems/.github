@@ -149,11 +149,6 @@ Aplicação de metodologias e padrões de engenharia corporativos em todos os pr
 | **Notification Platform** | Event-Driven Architecture (EDA) | Padrões de Resiliência (Idempotência, Retry) | Filas assíncronas (RabbitMQ), concorrência, retentativas |
 | **AI Security Analyzer** | Pipe and Filter / Em Camadas | Observability-Driven Development (ODD) | Ingestão de logs, rate-limiting, resiliência contra falhas de API |
 
-> [!TIP]
-> **Dica de Ouro para Entrevistas:**
-> Ao apresentar esses projetos, evite apenas citar ferramentas (ex: *"Usei NestJS"*). Em vez disso, explique suas decisões arquiteturais:
-> *"Usei NestJS aplicando **Arquitetura Hexagonal** para isolar a regra de negócio do framework, garantindo que o **Auth Gateway** possa trocar o Prisma por qualquer outro ORM sem tocar nas regras de autenticação, tudo coberto por testes via **TDD**."*
-
 ---
 
 # ⚙️ Princípios de Engenharia
